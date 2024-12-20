@@ -1,8 +1,8 @@
 # general
-[manager] 
+[manager]
 # this is according to my liking
 sort_dir_first = true
-sort_by = "modified"
+sort_by_modified = true
 sort_reverse = true
 show_hidden = false
 
@@ -23,10 +23,10 @@ show_hidden = false
 #[open]
 # set rules for opening specific files
 #rules = [
-#	{ name = "*.mpv", use = "play" },        
-#	{ name = "*.png", use = "view" },        
-#	{ name = "*.jpg", use = "view" },        
-#	{ name = "*.jpeg", use = "view" },        
+#	{ name = "*.mpv", use = "play" },
+#	{ name = "*.png", use = "view" },
+#	{ name = "*.jpg", use = "view" },
+#	{ name = "*.jpeg", use = "view" },
 
 
 # just examples
@@ -35,12 +35,12 @@ show_hidden = false
 	# { mime = "video/*", use = "play" },
 
     # { mime = "application/json", use = "edit" },
-	# { name = "*.json", use = "edit" },        
+	# { name = "*.json", use = "edit" },
 
 	# Multiple openers for a single rule
 	# { name = "*.html", use = [ "open", "edit" ] },
 # ]
 
 
-#For more modifications please visit : 
+#For more modifications please visit :
 #https://yazi-rs.github.io/docs/configuration/yazi
